@@ -1,0 +1,44 @@
+.bio{
+ 
+background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 34px;
+}
+
+p{
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+h1{
+    padding-right: 8px;
+    padding-top: 5px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg-image {
+  background-image: url("./icon_background.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  display: flex;
+}
+*{
+  box-sizing: border-box;
+}
